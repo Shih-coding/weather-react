@@ -1,9 +1,13 @@
 import React from "react";
+import Weather from "./Weather.js"
+import "./App.css"
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <div className="container">
+        <h1>Weather App</h1>
+        <Weather />
       <footer>
         This project was coded by {""}
         <a href="https://tourmaline-croissant-4da783.netlify.app/" target="_blank" rel="noreferrer">
@@ -13,7 +17,8 @@ export default function App() {
           
           open-sourced on GitHub
         </a>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 }
