@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Perth" />
       <footer>
         This project was coded by {""}
         <a href="https://tourmaline-croissant-4da783.netlify.app/" target="_blank" rel="noreferrer">
