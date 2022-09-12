@@ -62,7 +62,6 @@ export default function Weather(props) {
   );
 } else {
   const apiKey = "601d6d06ce387ac1305b54eb7df93ac7";
-  let city = "Perth";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultcity}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
     
