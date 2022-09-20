@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .App {
   border: 2px solid black;
@@ -7,7 +8,6 @@
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 8px 8px 0 rgb(37 39 89 / 10%);
-  
 }
 
 .App footer {
@@ -15,6 +15,6 @@
 }
 footer a {
   text-decoration: none;
-  color:rgb(8, 184, 8);
+  color:rgb(8, 153, 8);
   font-weight: bolder;
 }

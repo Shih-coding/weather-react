@@ -62,7 +62,7 @@ export default function Weather(props) {
             <input
               type="search"
               placeholder="Enter a city..."
-              className="form-control"
+              className="form-control border-secondary border border-2 mb-2 "
               autoFocus="on"
               onChange={handleCityChange}
             />
@@ -73,7 +73,10 @@ export default function Weather(props) {
             </button>
           </div>
           <div class="col-2">
-            <button className="current-location-btn" onClick={getCurrentLocation}>
+            <button
+              className="current-location-btn"
+              onClick={getCurrentLocation}
+            >
               <FontAwesomeIcon icon={solid("street-view")} />
             </button>
           </div>
