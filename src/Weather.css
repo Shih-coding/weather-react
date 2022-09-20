@@ -1,3 +1,7 @@
+.WeatherInfo{
+  font-family: aglet-mono, mono, monospace;
+}
+
 .Weather {
   border: 1px solid #dadde1;
   color:rgb(135, 135, 135);
@@ -54,4 +58,8 @@
   position: relative;
   left: 70px;
   bottom: 45px;
+}
+
+.Weather {
+  font-family: aglet-mono, mono, monospace;
 }

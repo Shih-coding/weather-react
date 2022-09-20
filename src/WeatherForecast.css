@@ -6,3 +6,9 @@
   opacity:0.8;
   margin-left: 5px;
 }
+
+.WeatherForecastDay, .WeatherForecast {
+  font-family: aglet-mono, mono, monospace;
+}
+
+ 
