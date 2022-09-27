@@ -13,3 +13,8 @@ body, html {
    overflow: hidden;
 }
 
+@media (max-width: 600px) {
+  .html, body {
+    padding:20px;
+  }
+}
