@@ -16,5 +16,12 @@ body, html {
 @media (max-width: 600px) {
   .html, body {
     padding:20px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding:20px;
   }
 }

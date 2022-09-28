@@ -2,6 +2,12 @@
   text-align:center;
 }
 
+@media (max-width: 600px) {
+ .WeatherForecast {
+    display:list-item;
+  }
+}
+
 .WeatherForecast-temperature-min {
   opacity:0.6;
   margin-left: 5px;

@@ -94,8 +94,11 @@ color: #080808;
 
 .current-location-btn {
   position: relative;
-  right: 50px;
+  right: 30px;
 }
+
+
+ 
 
 .search-btn, .current-location-btn {
   border-radius: 5px;
@@ -113,4 +116,52 @@ color: #080808;
    position: relative;
    top: 20px;
    right: 50px;
+}
+
+@media (max-width: 610px) {
+  .weather-extra{ 
+    font-size: smaller;
+  }
+}
+ 
+@media (max-width: 570px) {
+ .current-location-btn{ 
+position: relative;
+left: 70px;
+}
+}
+@media (max-width: 580px) {
+  .WeatherInfo{ 
+   text-align: center;
+}
+}
+
+@media (max-width: 580px) {
+  .WeatherTemperature{ 
+   position: relative;
+  left: 50px;
+}
+}
+
+@media (max-width: 330px) {
+  .weather-description{ 
+   display: block;
+   position: relative;
+   left: 40px;
+}
+}
+
+@media (max-width: 330px) {
+  .current-weather-icon { 
+   position: relative;
+   right:40px;
+   top: 20px;
+}
+}
+
+@media (max-width: 580px) {
+  .weather-extra{ 
+   margin-bottom: 30px;
+   
+}
 }
