@@ -68,7 +68,7 @@ export default function Weather(props) {
             />
           </div>
           <div className="col-2">
-            <button className="search-btn" onClick={handleSubmit}>
+            <button className="search-btn " onClick={handleSubmit}>
               <FontAwesomeIcon icon={solid("magnifying-glass")} />
             </button>
           </div>
